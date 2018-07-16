@@ -11,7 +11,7 @@ class App < Sinatra::Base
     @coach= params[:coach]
     @pg= params[:pg]
     @sg= params[:sg]
-    @pf= params[:power_forward]
+    @pf= params[:pf]
     @center= params[:center]
 
     erb :team
