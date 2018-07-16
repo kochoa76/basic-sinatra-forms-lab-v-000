@@ -13,7 +13,7 @@ class App < Sinatra::Base
     @sg=params[:shooting_guard]
     @pf=params[:power_forward]
     @center= params[:center]
-  
+
     erb :team
   end
 
