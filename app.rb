@@ -15,8 +15,6 @@ class App < Sinatra::Base
     params[:power_forward],
     params[:center],
   ]
-    
-
     erb :team
   end
 
